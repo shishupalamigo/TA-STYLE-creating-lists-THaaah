@@ -1,0 +1,145 @@
+
+/* ERIC MEYER'S STYLE RESET  */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET ENDS HERE */
+
+/* CUSTOM STYLES */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    background: #D4CEA7;
+    font-family: 'Source Code Pro', monospace;
+}
+/* COMMON  FEATURES */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 3em;
+}
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+/*  NAVBAR */
+.navbar {
+    background: #F9633A;
+    height: 10vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav {
+    width: 100%;
+}
+.navbar ul li {
+    margin-left: 1em;
+}
+/* MAIN */
+
+/* LISTS SECTION */
+.lists-section {
+    margin-top: 2em;
+    justify-content: space-between;
+}
+.list-box {
+    width: 30%;
+    height: 50vh;
+    background: #005979 ;
+    padding: 2em;
+    box-shadow: 3px 3px 8px #000;
+    color: #fff;
+}
+.list-box ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.list-box ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.list-box-2 ul li  {
+   margin-left: 1em;
+}
+ol .sub-menu {
+    list-style-type: square;
+}
+.list-box-3 ul {
+    list-style-type: none;
+    list-style-image: url(../tick.png);    
+}
+.list-box-3 li {
+    padding-top: .5em;
+}
+/* DETAILS SECTION */
+.details {
+    margin: 3em auto;
+    color: #2F362A;
+}
+.details h2 {
+    font-size: 32px;
+    margin: .6em 0;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #252C22;
+}
